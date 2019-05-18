@@ -1,0 +1,11 @@
+<div class="form-wrapper-new">
+<h2>New Article</h2>
+    <%= form_for @article do |f| %>
+      <div class="form-item-new">
+      <%= f.text_area :text, placeholder: '本文を入力してください', class: "form-item-new" %>
+        </div>
+     <div class="button-pannel-new">
+    <%= f.submit class: "button-new" %>
+  </div>
+<% end %>
+    </div>

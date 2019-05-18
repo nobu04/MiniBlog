@@ -1,0 +1,26 @@
+.container  {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container .row {
+     margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.container .row .col{
+  margin-left: 25%;
+}
+
+.container .row .col.m8{
+  width: 50%;
+  left: auto;
+  right: auto;
+}
+
+.card-action-color{
+  color: #000000;
+}
